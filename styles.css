@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.logo{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+.nav-links li{
+    margin-left: 25px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    justify-content: space-between;
+}
+.nav-links a:hover{
+    color: #00ffff;
+}
